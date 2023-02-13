@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "781868651885",
+    "project_id": "alghadir-sms-system",
+    "storage_bucket": "alghadir-sms-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781868651885:android:2c26e511ada49e2f1ff664",
+        "android_client_info": {
+          "package_name": "ir.schooltech.alghadirsmsnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781868651885-5dq9todq5v4a0lk0h2fkgtevkhmradvq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV6ASKbl8fvj1aVG7O2O0cbF7JvFhvib0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781868651885-5dq9todq5v4a0lk0h2fkgtevkhmradvq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
