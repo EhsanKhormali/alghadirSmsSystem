@@ -23,6 +23,9 @@ interface DatabaseDao {
 	@Update(onConflict = OnConflictStrategy.REPLACE)
 	suspend fun updateContact(contact: Contact)
 	
+	@Query(value = "SELECT * from tbl_contacts where first_name like %:value% or last_name like %:value%")
+	fun searchContact(value: String):Flow<List<Contact>>
+	
 	//StudentClass table operations
 	@Query(value = "SELECT * from tbl_contacts where class_id= :classId")
 	fun getClassStudents(classId:Int):Flow<List<Contact>>
